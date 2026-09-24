@@ -109,11 +109,31 @@ Menu petugas digunakan untuk mengelola data petugas yang bertanggung jawab pada 
 
 ---
 
-## 6. Data Donor
+## 6. Update Data Petugas
+   
+<img width="455" height="341" alt="Screenshot 2026-09-24 211803" src="https://github.com/user-attachments/assets/b3eb6f4b-382e-4479-bde3-80ba866d2eb5" />
+
+**Gambar 6. Mengubah Data Petugas**
+
+Fitur update digunakan untuk mengubah data petugas berdasarkan ID. Perubahan data dilakukan menggunakan method setter yang terdapat pada class `Petugas` dan superclass `Orang`.
+
+## 7. Tambah Data Petugas
+
+<img width="360" height="176" alt="Screenshot 2026-09-24 211303" src="https://github.com/user-attachments/assets/7e16a4d4-21b0-4875-8f96-18217473f34b" />
+
+**Gambar 7. Menambahkan Data Petugas**
+
+Pengguna dapat menambahkan petugas baru dengan memasukkan ID petugas, nama, nomor HP, dan jabatan. Data yang berhasil dimasukkan akan disimpan ke dalam `ArrayList`.
+
+Program juga melakukan validasi agar ID pendonor yang sama tidak dapat digunakan lebih dari satu kali.
+
+---
+
+## 8. Data Donor
 
 <img width="407" height="208" alt="Screenshot 2026-09-24 205353" src="https://github.com/user-attachments/assets/c4df5375-78a9-49dd-bc87-68fd2acdcb94" />
 
-**Gambar 6. Menampilkan Data Donor**
+**Gambar 8. Menampilkan Data Donor**
 
 Data donor menyimpan informasi kegiatan donor yang terdiri dari ID donor, pendonor, petugas, tanggal donor, dan jumlah darah.
 
@@ -121,11 +141,11 @@ Data donor terhubung dengan objek `Pendonor` dan `Petugas`, sehingga informasi y
 
 ---
 
-## 7. Tambah Data Donor
+## 9. Tambah Data Donor
 
 <img width="387" height="197" alt="Screenshot 2026-09-24 205520" src="https://github.com/user-attachments/assets/058bfa8b-9a1b-4247-bef4-5d57a1724acf" />
 
-**Gambar 7. Menambahkan Data Donor**
+**Gambar 9. Menambahkan Data Donor**
 
 Pengguna dapat menambahkan kegiatan donor dengan memasukkan ID donor, ID pendonor, ID petugas, tanggal donor, dan jumlah darah.
 
@@ -133,11 +153,11 @@ ID pendonor dan ID petugas akan diperiksa terlebih dahulu untuk memastikan data 
 
 ---
 
-## 8. Validasi Input
+## 10. Validasi Input
 
 <img width="377" height="291" alt="Screenshot 2026-09-24 205841" src="https://github.com/user-attachments/assets/504e32dd-1cbf-42e0-ac93-a127c18fdd4b" />
 
-**Gambar 8. Validasi Input**
+**Gambar 10. Validasi Input**
 
 Program menerapkan validasi input untuk mencegah input yang tidak sesuai. Beberapa validasi yang diterapkan antara lain input tidak boleh kosong, input angka harus berupa angka, nomor HP hanya dapat berisi angka, golongan darah hanya dapat berupa A, B, AB, atau O, serta ID tidak boleh duplikat.
 
